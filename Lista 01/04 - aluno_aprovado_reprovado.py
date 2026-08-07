@@ -1,0 +1,1 @@
+#4. Leia a nota de um aluno e informe se ele foi aprovado (nota ≥ 7) ou reprovado.
