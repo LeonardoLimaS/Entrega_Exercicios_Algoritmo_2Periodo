@@ -92,7 +92,7 @@ def main():
     for posicao, (nome, tempo_bruto) in enumerate(tempos_resultados, 1):
         print(f"{posicao}º lugar: {nome:<15} -> {formatar_tempo(tempo_bruto)}")
 
-    print("\n[Nota do Professor]: Algoritmos lineares em tempo de execução como Counting Sort e Radix Sort")
+    print("\n[Nota]: Algoritmos lineares em tempo de execução como Counting Sort e Radix Sort")
     print("frequentemente se destacam na casa dos milissegundos ou microssegundos com inteiros.")
 
 if __name__ == "__main__":
