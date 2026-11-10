@@ -1,0 +1,23 @@
+1. Sistema de Funcionários
+Tabela: funcionario
+id: Inteiro (Chave Primária, Auto-incremento)
+nome: Texto  
+cargo: Texto    
+salario: Float 
+
+2. Sistema de Alunos (Segunda versão / Menu de navegação)
+Tabela: aluno
+id: Inteiro (Chave Primária, Auto-incremento)
+nome: Texto 
+nota: Float 
+
+3. Sistema de Votação
+Tabela: opcao
+id: Inteiro (Chave Primária, Auto-incremento)
+descricao: 
+votos: Int   
+
+Tabela: voto 
+id: Inteiro (Chave Primária, Auto-incremento)
+opcao_id: Int (Chave Estrangeira ligada à tabela opcao)
+data_hora: Timestamp 
